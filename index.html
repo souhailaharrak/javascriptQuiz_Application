@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="quiz-app">
       <div class="quiz-info">
+
         <div class="category">category<span>HTML</span></div>
         <div class="count">question Count:<span>10</span></div>
+
       </div>
 
       <div class="quiz">
@@ -20,7 +23,7 @@
       <div class="answers-area">
         <div class="answer">
           <input type="radio" id="answer_1" name="question" />
-          <label for="answer_1">HTML</label>
+          <label for="answer_1">C</label>
         </div>
 
         <div class="answer">
@@ -43,7 +46,7 @@
       <button type="submit" class="btn">Answer</button>
       <div class="bullets">
         <div class="spans">
-          <span></span>
+          <span class="don"></span>
           <span></span>
           <span></span>
           <span></span>
@@ -55,7 +58,11 @@
           <span class="minutes">02</span>:<span class="seconde">45</span>
         </div>
       </div>
-      <div class="result"></div>
+      <div class="result">
+      <span class="prefect">very good</span> you answerd 10 from 10 
+   
+      </div>
     </div>
+    <script src="js.js"></script>
   </body>
 </html>
