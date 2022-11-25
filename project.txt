@@ -1,0 +1,6 @@
+1-create JSON question object for question
+2- create html Markup
+3-create the styling 
+4-fetch Number of questions from Json object 
+5-show questions count + questions categorg
+6- show the number of bullets depend on questions
